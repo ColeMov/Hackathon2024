@@ -1,13 +1,14 @@
 import pandas as pd
 
-file = pd.read_excel('CarData2014-2022.xlsx')
+file = pd.read_excel('CarData1975-2022.xlsx')
 
 make = input("Vehicle Manufacturer: ")
 model = input("Vehicle Type: ")
+year = int(input("Model Year: "))
 
-cars_2021 = file[file['Model Year'] == 2021]
-make_cars = cars_2021[cars_2021['Manufacturer'] == make]
-model_cars = make_cars[make_cars['Vehicle Type'] == model]
+cars_year = file[file['Model Year'] == year]
+cars_make = cars_year[cars_year['Manufacturer'] == make]
+cars_model = cars_make[cars_make['Vehicle Type'] == model]
 
-emissions = model_cars.iloc[0, 5]
+emissions = cars_model.iloc[0, 5]
 print(emissions)

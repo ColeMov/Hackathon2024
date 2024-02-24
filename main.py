@@ -33,7 +33,7 @@ for i in range(0, len(manufacturers)):
     make_cars = file[file['Manufacturer'] == manufacturers[i]]
     make_all_models = make_cars[make_cars['Vehicle Type'] == 'All']
     make_all_2021 = make_all_models[make_all_models['Model Year'] == 2021]
-    emissions = make_all_2021.iloc[0, 5]
+    emissions = make_all_2021.iloc[0, 4]
     all_vehicle_type_emissions = np.append(all_vehicle_type_emissions, emissions)
 
 chart = int(input("Select graph type:\n1)Pie Chart\n2)Bar Graph\n"))
