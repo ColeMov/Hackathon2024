@@ -1,52 +1,52 @@
-﻿State,% Renewable,% Non Renewable
-Alabama,0.099,0.901
-Alaska,0.283,0.717
-Arizona,0.136,0.864
-Arkansas,0.078,0.922
-California,0.43,0.57
-Colorado,0.358,0.642
-Connecticut,0.029,0.971
-"Washington, D.C.",0.499,0.501
-Delaware,0.028,0.972
-Florida,0.06,0.94
-Georgia,0.12,0.88
-Hawaii,0.19,0.81
-Idaho,0.73,0.27
-Illinois,0.137,0.863
-Indiana,0.121,0.879
-Iowa,0.649,0.351
-Kansas,0.48,0.52
-Kentucky,0.073,0.927
-Louisiana,0.03,0.97
-Maine,0.629,0.371
-Maryland,0.089,0.911
-Massachusetts,0.17,0.83
-Michigan,0.109,0.891
-Minnesota,0.324,0.676
-Mississippi,0.027,0.973
-Missouri,0.117,0.883
-Montana,0.516,0.484
-Nebraska,0.34,0.66
-Nevada,0.352,0.648
-New Hampshire,0.135,0.865
-New Jersey,0.032,0.968
-New Mexico,0.406,0.594
-New York,0.281,0.719
-North Carolina,0.136,0.864
-North Dakota,0.406,0.594
-Ohio,0.038,0.962
-Oklahoma,0.468,0.532
-Oregon,0.689,0.311
-Pennsylvania,0.031,0.969
-Rhode Island,0.102,0.898
-South Carolina,0.058,0.942
-South Dakota,0.814,0.186
-Tennessee,0.126,0.874
-Texas,0.265,0.735
-Utah,0.145,0.855
-Vermont,0.996,0.004
-Virginia,0.089,0.911
-Washington,0.757,0.243
-West Virginia,0.065,0.935
-Wisconsin,0.094,0.906
-Wyoming,0.231,0.769
+﻿State,State Code,% Renewable,% Non Renewable
+Alabama,AL,0.099,0.901
+Alaska,AK,0.283,0.717
+Arizona,AZ,0.136,0.864
+Arkansas,AR,0.078,0.922
+California,CA,0.43,0.57
+Colorado,CO,0.358,0.642
+Connecticut,CT,0.029,0.971
+"Washington, D.C.",DC,0.499,0.501
+Delaware,DE,0.028,0.972
+Florida,FL,0.06,0.94
+Georgia,GA,0.12,0.88
+Hawaii,HI,0.19,0.81
+Idaho,ID,0.73,0.27
+Illinois,IL,0.137,0.863
+Indiana,IN,0.121,0.879
+Iowa,IA,0.649,0.351
+Kansas,KS,0.48,0.52
+Kentucky,KY,0.073,0.927
+Louisiana,LA,0.03,0.97
+Maine,ME,0.629,0.371
+Maryland,MD,0.089,0.911
+Massachusetts,MA,0.17,0.83
+Michigan,MI,0.109,0.891
+Minnesota,MN,0.324,0.676
+Mississippi,MS,0.027,0.973
+Missouri,MO,0.117,0.883
+Montana,MT,0.516,0.484
+Nebraska,NE,0.34,0.66
+Nevada,NV,0.352,0.648
+New Hampshire,NH,0.135,0.865
+New Jersey,NJ,0.032,0.968
+New Mexico,NM,0.406,0.594
+New York,NY,0.281,0.719
+North Carolina,NC,0.136,0.864
+North Dakota,ND,0.406,0.594
+Ohio,OH,0.038,0.962
+Oklahoma,OK,0.468,0.532
+Pennsylvania,OR,0.689,0.311
+Pennsylvania,PA,0.031,0.969
+Rhode Island,RI,0.102,0.898
+South Carolina,SC,0.058,0.942
+South Dakota,SD,0.814,0.186
+Tennessee,TN,0.126,0.874
+Texas,TX,0.265,0.735
+Utah,UT,0.145,0.855
+Vermont,VT,0.996,0.004
+Virginia,VA,0.089,0.911
+Washington,VI,0.757,0.243
+West Virginia,WV,0.065,0.935
+Wisconsin,WI,0.094,0.906
+Wyoming,WY,0.231,0.769
