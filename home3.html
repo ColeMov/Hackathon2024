@@ -25,6 +25,11 @@ h1 {
   font-family: verdana;
   font-size: 300%;
 }
+h3 {
+     position:fixed;
+     left:200px;
+     top: 220px;
+}
 option {
   color: black;
   font-family: courier;
@@ -33,14 +38,26 @@ option {
 
            </style>
 <body>
+<div style = 'position: fixed; top:60; text-align: center'>
+        <h1>What is the Model of Your {{year}} {{state}} {{car_brand}}?</h1>
+</div>
+<div style = 'position: fixed; top: 300px; left: 300px;'>
     <form action="/final" method="post">
-    <h1><center>What is the Model of Your {{year}} {{state}} {{car_brand}}?</center></h1>  
-    <h3>Model:</h3>
-    <select name='Model' id='Model'>
+    <h2>Model:</h2>
+    <select name='Model' id='Model' style = 'height: 50px; width: 200px'>
         {{ options | safe }}  
     </select>
-    <button type="submit">Submit</button>
         <br>
+        <br>
+    <button type="submit" style = "height: 40px; width: 100px">Submit</button>
     </form>
+</div>
+<div>
+    <h3>
+        We hope that you utilize this data to make an informed decision about whether it is trulyS
+        better to purchase<br>
+        a new EV or use your current vehicle to the end of its lifespan.
+    </h3>
+</div>
 </body>
 </html>

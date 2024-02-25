@@ -3,51 +3,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Model Selection</title>
-    
 </head>
-    <div style = "position:relative; left:80px; top:2px;">
-        <style> body{
-  background: #0a0a23;
-  min-height:100vh;
-  display:flex;
-  justify-content:left;
-  align-items:center;
-  color:#fff;
-}
+        <style>
+            body{
+              background: #0a0a23;
+              min-height:100vh;
+              display:flex;
+              justify-content:left;
+              align-items:center;
+              color:#fff;
+            }
 
-/* select{
-  border:none;
-  padding: 10px 20px;
-  border-radius:5px;
-  color: black;
-  font-family:
-} */
-h1 {
-  color: blue;
-  font-family: verdana;
-  font-size: 300%;
-}
-option {
-  color: black;
-  font-family: courier;
-  font-size: 160%;
-}
+            /* select{
+              border:none;
+              padding: 10px 20px;
+              border-radius:5px;
+              color: black;
+              font-family:
+            } */
+            h1 {
+              color: blue;
+              font-family: verdana;
+              font-size: 300%;
+              border-radius: 40px
+              border-color: black;
+              padding: 10px 10px;
+            }
+            h3 {
+                position:fixed;
+                left: 200px;
+                top: 200px;
+            }
+            option {
+              color: black;
+              font-family: courier;
+              font-size: 160%;
+            }
 
            </style>
 <body>
-    <h1><center>What is the Year of Your {{state}} {{car_brand}}?</center></h1>  
+<div style = 'position: fixed; top:60px;'>
+    <h1>What is the Year of Your {{state}} {{car_brand}}?</h1>
+</div>
+<div style = 'position: fixed; top: 180px; left: 60px; font-size:150%;'>
     <form action="/next" method="post">  <!-- Add action attribute -->
-        <h3>Year:</h3>
-        <select name='Year' id='Year'>
-            {{ year_options | safe }}  
-        <br>
+        <h2>Year:</h2>
+        <select name='Year' id='Year' style = 'height: 40px; width: 100px'>
+            {{ year_options | safe }}
         </select>
-        <br>
-        <header id="myheader" style="background:#0a0a23;color:#0a0a23;padding:15px;">
+        <header id="myheader" style="background:#0a0a23;color:#0a0a23;padding:15px">
             </header>
-        <button type="submit">Submit</button>
+        <button type="submit" style = "height: 50px; width: 100px">Submit</button>
     </form>
+</div>
+    <h3>
+        With the year, make, and model of your vehicle along with the state you'll be driving we can calculate<br>
+        the total mileage you'll need to achieve breaking environmentally even. Both the production of your<br>
+        new EV and the sources of power you use to charge leave a significant carbon footprint.
+    </h3>
 
 </body>
-         </div>
 </html>

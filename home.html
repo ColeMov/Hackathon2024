@@ -1,44 +1,66 @@
 <html>
     
     <body>
-       <style> body{
-  background: #0a0a23;
-  min-height:25vh;
-  display:flex;
-  align-items:center;
-  color:#fff;
-}
+       <style>
+           body{
+              background: #0a0a23;
+              min-height:25vh;
+              display:flex;
+              align-items:center;
+              color:#fff;
+            }
 
-select{
-  border:none;
-  padding: 10px 20px;
-  border-radius:5px;
-  color: black;
-  font-family:
-}
-h1 {
-  color: blue;justify-content:left;
-  font-family: verdana;
-  font-size: 300%;
-}
-option {
-  color: black;
-  font-family: courier;
-  font-size: 160%;
-}
+           select{
+              border:none;
+              padding: 10px 20px;
+              border-radius:5px;
+              color: black;
+              font-family:
+            }
+           h1 {
+              color: blue;justify-content:left;
+              font-family: verdana;
+              font-size: 300%;
+            }
+           h2 {
+               font-family: courier;
+               font-size: 200%;
+            }
+           option {
+              color: black;
+              font-family: courier;
+              font-size: 160%;
+            }
+            div.fixed {
+              position: fixed;
+              top: 60px;
+              right: 900px;
+              width: 300px;
+              border: 6px solid white;
+            }
+
 
            </style>
 
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <div class="header">
+        <div class="fixed">
       <h1><center> Easy EV </center></h1>
         </div>
         <br>
         <br>
         <br>
-        <h3> <center> Should I Buy an Electric Vehicle? </center> </h3>
-        <div style = "position:relative; left:80px; top:2px;">
+        <div style="position: fixed; top:30; left: 400px;">
+            <h2> Should I Buy an Electric Vehicle? </h2>
+            <h3>
+                The purchase of an electric vehicle is often hailed as an environmentally friendly decision.
+                However, when you truly consider the greater ecological cost of producing an EV and the
+                differing sources of charging power between states the environmentally friendly decision
+                becomes less clear.
+            </h3>
+        </div>
+        <div style = "position:relative; left:70px; top: 10px;">
+            <h3>Submit the form below to learn more</h3>
         <form action="/process" method="post">
             <h3> State:</h3>
             <select name='State' id='State'>
@@ -107,8 +129,9 @@ option {
             </header>
             <button type="submit">Submit</button>
             </form>
-            <img src='color_map_power_per_state.png' alt='h' width="400" 
-     height="100">
+            </div>
+            <div style = 'position: fixed; top: 200px; left: 400px;'>
+                <img src='/static/images/renewable_states_map.jpg' width = '600'>
             </div>
        </body>
 </html>
