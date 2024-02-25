@@ -4,6 +4,34 @@
 <head>
     <title>Result</title>
 </head>
+<style>
+    body{
+  background: #0a0a23;
+  min-height:100vh;
+  display:flex;
+  justify-content:left;
+  align-items:center;
+  color:#fff;
+}
+
+/* select{
+  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+  color: black;
+  font-family:
+} */
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+option {
+  color: black;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
 <body>
     <h1>CO2 Emissions Comparison</h1>
     <img src="data:image/png;base64,{{ plot_data }}" alt="CO2 Emissions Comparison">
