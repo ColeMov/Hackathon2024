@@ -1,0 +1,114 @@
+<html>
+    
+    <body>
+       <style> body{
+  background: #0a0a23;
+  min-height:25vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+select{
+  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+  color: white;
+  font-family:
+}
+h1 {
+  color: blue;justify-content:left;
+  font-family: verdana;
+  font-size: 300%;
+}
+option {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+
+           </style>
+
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="header">
+      <h1><center> Easy EV </center></h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h3> <center> Should I Buy an Electric Vehicle? </center> </h3>
+        <div style = "position:relative; left:80px; top:2px;">
+        <form action="/process" method="post">
+            <h3> State:</h3>
+            <select name='State' id='State'>
+            <option value='Select'> Select</option>
+            <option value='Alabama'>Alabama</option>
+         <option value='Alaska'>Alaska</option>
+         <option value='Arizona'>Arizona</option>
+         <option value='Arkansas'>Arkansas</option>
+         <option value='California'>California</option>
+         <option value='Colorado'>Colorado</option>
+        <option value='Connecticut'>Connecticut</option>
+         <option value='Delaware'>Delaware</option>
+         <option value='Florida'>Florida</option>
+         <option value='Georgia'>Georgia</option>
+         <option value='Hawaii'>Hawaii</option>
+         <option value='Idaho'>Idaho</option>
+         <option value=Illinois>Illinois</option>
+         <option value=Indiana>Indiana</option>
+         <option value=Iowa>Iowa</option>
+         <option value=Kansas>Kansas</option>
+         <option value=Kentucky>Kentucky</option>
+         <option value=Louisiana>Louisiana</option>
+         <option value=Maine>Maine</option>
+         <option value=Maryland>Maryland</option>
+         <option value=Massachusetts>Massachusetts</option>
+         <option value=Michigan>Michigan</option>
+         <option value=Minnesota>Minnesota</option>
+         <option value=Mississippi>Mississippi</option>
+         <option value=Missouri>Missouri</option>
+         <option value=Montana>Montana</option>
+         <option value=Nebraska>Nebraska</option>
+            <option value=Nevada>Nevada</option>
+         <option value=New Hampshire> New Hampshire</option>
+         <option value=New Jersey>New Jersey</option>
+         <option value=New Mexico>New Mexico</option>
+         <option value=New York>New York</option>
+         <option value=North Carolina>North Carolina</option>
+         <option value=North Dakota>North Dakota</option>
+         <option value=Ohio>Ohio</option>
+         <option value=Oklahoma>Oklahoma</option>
+         <option value=Oregon>Oregon</option>
+        <option value=Pennsylvania>Pennsylvania</option>
+         <option value=Rhode Island>Rhode Island</option>
+         <option value=South Carolina>South Carolina</option>
+         <option value=Carolina>Carolina</option>
+         <option value=South Dakota>South Dakota</option>
+        <option value=Tennessee>Tennessee</option>
+        <option value=Texas>Texas</option>
+         <option value=Utah>Utah</option>
+         <option value=Vermont>Vermont</option>
+         <option value=Virginia>Virginia</option>
+         <option value=Washington>Washington</option>
+         <option value=West Virginia>West Virginia</option>
+         <option value=Wisconsin>Wisconsin</option>
+         <option value=Wyoming>Wyoming</option>
+        </select>
+    
+        <br>        
+            <h3> Car Make:</h3>
+            <select name='Car Make' id='Car Make'>
+            <option value='Select'> Select</option>
+            <option value=Nissan>Nissan</option><option value=Toyota>Toyota</option> <option value=Ford>Ford</option> <option value=GMC>GMC</option> <option value=Honda>Honda</option> <option value=Dodge>Dodge</option> <option value=Plymouth>Plymouth</option> <option value=Chevrolet>Chevrolet</option> <option value=MINI>MINI</option> <option value=smart>smart</option> <option value=Mitsubishi>Mitsubishi</option> <option value=Azure Dynamics>Azure Dynamics</option> <option value=BMW>BMW</option> <option value=CODA Automotive>CODA Automotive</option> <option value=Tesla>Tesla</option> <option value=Scion>Scion</option> <option value=BYD>BYD</option> <option value=Fiat>Fiat</option> <option value=Mercedes-Benz>Mercedes-Benz</option> <option value=Kia>Kia</option> <option value=Volkswagen>Volkswagen</option> <option value=Hyundai>Hyundai</option> <option value=Jaguar>Jaguar</option> <option value=Audi>Audi</option> <option value=Porsche>Porsche</option> <option value=Polestar>Polestar</option> <option value=Volvo>Volvo</option> <option value=Kandi>Kandi</option> <option value=Rivian>Rivian</option> <option value=Lucid>Lucid</option> <option value=Mazda>Mazda</option> <option value=Genesis>Genesis</option> <option value=Cadillac>Cadillac</option> <option value=Subaru>Subaru</option> <option value=Lordstown>Lordstown</option> <option value=Fisker>Fisker</option> <option value=Lexus>Lexus</option> <option value=Vinfast>Vinfast</option> <option value=Rolls-Royce>Rolls-Royce</option> <option value=Karma>Karma</option> <option value=Chrysler>Chrysler</option> <option value=Land Rover>Land Rover</option> <option value=Lincoln>Lincoln</option> <option value=Alfa Romeo>Alfa Romeo</option> <option value=Jeep>Jeep</option> <option value=Bentley>Bentley</option> <option value=Acura>Acura</option> <option value=Infiniti>Infiniti</option> <option value=Buick>Buick</option> <option value=McLaren Automotive>McLaren Automotive</option> <option value=Suzuki>Suzuki</option> <option value=Maserati>Maserati</option> <option value=Ram>Ram</option> <option value=Lotus>Lotus</option> <option value=Ferrari>Ferrari</option> <option value=Aston Martin>Aston Martin</option> <option value=RUF Automobile>RUF Automobile</option> <option value=Mobility Ventures LLC>Mobility Ventures LLC</option> <option value=Roush Performance>Roush Performance</option> <option value=STI>STI</option> <option value=Lamborghini>Lamborghini</option> <option value=VPG>VPG</option> <option value=INEOS Automotive>INEOS Automotive</option> <option value=SRT>SRT</option> <option value=Koenigsegg>Koenigsegg</option> <option value=Pagani>Pagani</option> <option value=Bugatti>Bugatti</option> 
+            </select>
+            <br>
+            <header id="myheader" style="background:#0a0a23;color:#0a0a23;padding:15px;">
+            </header>
+            <button type="submit">Submit</button>
+            </form>
+            <img src='color_map_power_per_state.png' alt='h' width="400" 
+     height="100">
+            </div>
+       </body>
+</html>
