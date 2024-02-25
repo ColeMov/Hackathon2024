@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Model Selection</title>
+    
+</head>
+    <div style = "position:relative; left:80px; top:2px;">
+        <style> body{
+  background: #0a0a23;
+  min-height:25vh;
+  display:flex;
+  justify-content:left;
+  align-items:center;
+  color:#fff;
+}
+
+select{
+  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+  color: white;
+  font-family:
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+option {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+
+           </style>
+<body>
+    <h1><center>What is the Year of Your {{state}} {{car_brand}}?</center></h1>  
+    <form action="/next" method="post">  <!-- Add action attribute -->
+        <h3>Year:</h3>
+        <select name='Year' id='Year'>
+            {{ year_options | safe }}  
+        <br>
+        </select>
+        <br>
+        <header id="myheader" style="background:#0a0a23;color:#0a0a23;padding:15px;">
+            </header>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+         </div>
+</html>
