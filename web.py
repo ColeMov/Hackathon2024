@@ -74,7 +74,7 @@ def make_graph(gas_emissions, ev_emissions, mileage, state):
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 
 
 @app.route('/process', methods=['POST'])
@@ -93,7 +93,7 @@ def process():
 
 
 @app.route('/next', methods=['POST'])
-def nowwhat():
+def next():
     global year
     selected_values = {key: value for key, value in request.form.items()}
     year = selected_values.get('Year')  # Assuming 'Year' is the name of the year dropdown
